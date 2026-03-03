@@ -1,5 +1,6 @@
 import json
 import subprocess
+import time
 from pathlib import Path
 
 CHANNELS = ["joqnix", "joqnix_247"]
@@ -8,12 +9,15 @@ COOKIES_FILE = "cookies.txt"
 ARCHIVE_ROOT = Path("data/twitch_archive")
 INDEX_FILE = ARCHIVE_ROOT / "index.json"
 
+# Do not archive VODs newer than 30 minutes
+MINIMUM_AGE_SECONDS = 1800
+
 
 def run(cmd):
     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
         print(result.stderr)
-        exit(1)
+        return None
     return result.stdout
 
 
@@ -36,20 +40,54 @@ def fetch_channel_vods(channel):
     url = f"https://www.twitch.tv/{channel}/videos"
     cmd = f'yt-dlp --cookies {COOKIES_FILE} -J "{url}"'
     output = run(cmd)
+
+    if not output:
+        return []
+
     data = json.loads(output)
     return data.get("entries", [])
 
 
 def download_thumbnail(url, folder):
-    run(f'curl -L "{url}" -o "{folder}/thumbnail.jpg"')
+    subprocess.run(
+        f'curl -L "{url}" -o "{folder}/thumbnail.jpg"',
+        shell=True
+    )
 
 
 def download_chat(vod_id, folder):
-    run(
+    print(f"Downloading chat for {vod_id}...")
+
+    result = subprocess.run(
         f'TwitchDownloaderCLI chatdownload '
         f'--id {vod_id} '
-        f'-o "{folder}/chat_raw.json"'
+        f'-o "{folder}/chat_raw.json"',
+        shell=True
     )
+
+    if result.returncode != 0:
+        print(f"⚠️ Chat download failed for {vod_id}. Skipping chat.")
+
+
+def is_vod_ready(vod):
+    # Skip if live
+    if vod.get("is_live"):
+        print(f"Skipping live VOD: {vod.get('id')}")
+        return False
+
+    # Skip if no duration (usually incomplete)
+    if not vod.get("duration"):
+        print(f"Skipping unfinished VOD (no duration): {vod.get('id')}")
+        return False
+
+    # Skip if too recent
+    timestamp = vod.get("timestamp")
+    if timestamp:
+        if time.time() - timestamp < MINIMUM_AGE_SECONDS:
+            print(f"Skipping too recent VOD: {vod.get('id')}")
+            return False
+
+    return True
 
 
 def archive_vod(channel, vod, index_data):
@@ -97,7 +135,11 @@ def main():
 
         for vod in vods:
             vod_id = vod["id"]
+
             if vod_id in existing_ids:
+                continue
+
+            if not is_vod_ready(vod):
                 continue
 
             print(f"Archiving {channel} VOD: {vod_id}")
