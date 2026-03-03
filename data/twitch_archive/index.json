@@ -1,4 +1,10 @@
 {
-  "channel": "JoqniX_247",
-  "vod_ids": []
+  "channels": {
+    "joqnix": {
+      "vod_ids": []
+    },
+    "joqnix_247": {
+      "vod_ids": []
+    }
+  }
 }
