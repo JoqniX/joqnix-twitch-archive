@@ -45,7 +45,10 @@ def fetch_channel_vods(channel):
         return []
 
     data = json.loads(output)
-    return data.get("entries", [])
+    vods = data.get("entries", [])
+
+    print(f"{channel} returned {len(vods)} entries")
+    return vods
 
 
 def download_thumbnail(url, folder):
@@ -66,26 +69,25 @@ def download_chat(vod_id, folder):
     )
 
     if result.returncode != 0:
-        print(f"⚠️ Chat failed for {vod_id}. Skipping chat.")
+        print(f"⚠️ Chat failed for {vod_id}. Skipping.")
+        return False
+
+    return True
 
 
 def is_valid_archive(vod):
-    # Only real livestream archives
     if not vod.get("was_live"):
-        print(f"Skipping non-livestream (highlight/upload): {vod.get('id')}")
+        print(f"Skipping non-livestream: {vod.get('id')}")
         return False
 
-    # Skip if currently live
     if vod.get("is_live"):
         print(f"Skipping live stream: {vod.get('id')}")
         return False
 
-    # Skip if no duration
     if not vod.get("duration"):
         print(f"Skipping unfinished VOD: {vod.get('id')}")
         return False
 
-    # Skip if too recent
     timestamp = vod.get("timestamp")
     if timestamp:
         if time.time() - timestamp < MINIMUM_AGE_SECONDS:
@@ -95,13 +97,9 @@ def is_valid_archive(vod):
     return True
 
 
-def archive_vod(channel, vod, index_data):
-    vod_id = vod["id"]
-    folder = ARCHIVE_ROOT / channel / vod_id
-    folder.mkdir(parents=True, exist_ok=True)
-
+def archive_metadata(channel, vod, folder):
     metadata = {
-        "id": vod_id,
+        "id": vod["id"],
         "title": vod.get("title"),
         "created_at": vod.get("upload_date"),
         "timestamp": vod.get("timestamp"),
@@ -115,17 +113,9 @@ def archive_vod(channel, vod, index_data):
         json.dumps(metadata, indent=2)
     )
 
-    if vod.get("thumbnail"):
-        download_thumbnail(vod["thumbnail"], folder)
-
-    download_chat(vod_id, folder)
-
-    index_data["channels"][channel]["vod_ids"].append(vod_id)
-
 
 def main():
     ARCHIVE_ROOT.mkdir(parents=True, exist_ok=True)
-
     index_data = load_index()
 
     for channel in CHANNELS:
@@ -141,14 +131,30 @@ def main():
         for vod in vods:
             vod_id = vod["id"]
 
-            if vod_id in existing_ids:
-                continue
-
             if not is_valid_archive(vod):
                 continue
 
-            print(f"Archiving {channel} VOD: {vod_id}")
-            archive_vod(channel, vod, index_data)
+            folder = channel_root / vod_id
+            folder.mkdir(parents=True, exist_ok=True)
+
+            chat_file = folder / "chat_raw.json"
+
+            # If metadata not archived yet
+            if vod_id not in existing_ids:
+                print(f"Archiving metadata for {channel} VOD: {vod_id}")
+                archive_metadata(channel, vod, folder)
+
+                if vod.get("thumbnail"):
+                    download_thumbnail(vod["thumbnail"], folder)
+
+                index_data["channels"][channel]["vod_ids"].append(vod_id)
+
+            # If chat missing, attempt download
+            if not chat_file.exists():
+                print(f"Chat missing for {vod_id}, attempting download...")
+                download_chat(vod_id, folder)
+            else:
+                print(f"Chat already exists for {vod_id}")
 
     save_index(index_data)
 
