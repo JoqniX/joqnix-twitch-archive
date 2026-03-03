@@ -9,8 +9,7 @@ COOKIES_FILE = "cookies.txt"
 ARCHIVE_ROOT = Path("data/twitch_archive")
 INDEX_FILE = ARCHIVE_ROOT / "index.json"
 
-# Do not archive VODs newer than 30 minutes
-MINIMUM_AGE_SECONDS = 1800
+MINIMUM_AGE_SECONDS = 1800  # 30 minutes
 
 
 def run(cmd):
@@ -37,7 +36,8 @@ def save_index(data):
 
 def fetch_channel_vods(channel):
     print(f"Fetching VOD list for {channel}...")
-    url = f"https://www.twitch.tv/{channel}/videos"
+    url = f"https://www.twitch.tv/{channel}/videos?filter=archives"
+
     cmd = f'yt-dlp --cookies {COOKIES_FILE} -J "{url}"'
     output = run(cmd)
 
@@ -66,18 +66,23 @@ def download_chat(vod_id, folder):
     )
 
     if result.returncode != 0:
-        print(f"⚠️ Chat download failed for {vod_id}. Skipping chat.")
+        print(f"⚠️ Chat failed for {vod_id}. Skipping chat.")
 
 
-def is_vod_ready(vod):
-    # Skip if live
-    if vod.get("is_live"):
-        print(f"Skipping live VOD: {vod.get('id')}")
+def is_valid_archive(vod):
+    # Only real livestream archives
+    if not vod.get("was_live"):
+        print(f"Skipping non-livestream (highlight/upload): {vod.get('id')}")
         return False
 
-    # Skip if no duration (usually incomplete)
+    # Skip if currently live
+    if vod.get("is_live"):
+        print(f"Skipping live stream: {vod.get('id')}")
+        return False
+
+    # Skip if no duration
     if not vod.get("duration"):
-        print(f"Skipping unfinished VOD (no duration): {vod.get('id')}")
+        print(f"Skipping unfinished VOD: {vod.get('id')}")
         return False
 
     # Skip if too recent
@@ -139,7 +144,7 @@ def main():
             if vod_id in existing_ids:
                 continue
 
-            if not is_vod_ready(vod):
+            if not is_valid_archive(vod):
                 continue
 
             print(f"Archiving {channel} VOD: {vod_id}")
