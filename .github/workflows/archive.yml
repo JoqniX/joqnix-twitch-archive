@@ -21,9 +21,11 @@ jobs:
 
       - name: Install TwitchDownloaderCLI
         run: |
-          wget https://github.com/lay295/TwitchDownloader/releases/latest/download/TwitchDownloaderCLI-linux-x64
-          chmod +x TwitchDownloaderCLI-linux-x64
-          sudo mv TwitchDownloaderCLI-linux-x64 /usr/local/bin/TwitchDownloaderCLI
+         API_URL="https://api.github.com/repos/lay295/TwitchDownloader/releases/latest"
+         DOWNLOAD_URL=$(curl -s $API_URL | grep browser_download_url | grep linux-x64 | cut -d '"' -f 4)
+         wget "$DOWNLOAD_URL" -O TwitchDownloaderCLI
+         chmod +x TwitchDownloaderCLI
+         sudo mv TwitchDownloaderCLI /usr/local/bin/TwitchDownloaderCLI
 
       - name: Write cookies file
         run: echo "${{ secrets.TWITCH_COOKIES }}" > cookies.txt
