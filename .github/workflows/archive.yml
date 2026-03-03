@@ -10,46 +10,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repository
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      # Install yt-dlp
       - name: Install yt-dlp
         run: pip install -U yt-dlp
 
-      # Install TwitchDownloaderCLI (CORRECT METHOD)
+      # ✅ Correct TwitchDownloaderCLI install (ZIP version)
       - name: Install TwitchDownloaderCLI
         run: |
           VERSION=$(curl -s https://api.github.com/repos/lay295/TwitchDownloader/releases/latest | grep tag_name | cut -d '"' -f 4)
-          wget https://github.com/lay295/TwitchDownloader/releases/download/$VERSION/TwitchDownloaderCLI-linux-x64.tar.gz
-          tar -xzf TwitchDownloaderCLI-linux-x64.tar.gz
+          FILE="TwitchDownloaderCLI-${VERSION}-Linux-x64.zip"
+          wget https://github.com/lay295/TwitchDownloader/releases/download/${VERSION}/${FILE}
+          unzip ${FILE}
           chmod +x TwitchDownloaderCLI
           sudo mv TwitchDownloaderCLI /usr/local/bin/TwitchDownloaderCLI
 
-      # Write cookies.txt from secret
       - name: Write cookies file
         run: echo "${{ secrets.TWITCH_COOKIES }}" > cookies.txt
 
-      # Run fetch script
       - name: Run fetch script
         run: python scripts/fetch_vods.py
 
-      # Normalize chat files
       - name: Normalize chats
         run: python scripts/normalize_chat.py
 
-      # Commit & push changes
       - name: Commit changes
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "Archive Twitch VODs" || echo "No changes to commit"
+          git commit -m "Archive Twitch VODs" || echo "No changes"
           git push
