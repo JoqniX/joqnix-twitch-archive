@@ -21,7 +21,6 @@ jobs:
       - name: Install yt-dlp
         run: pip install -U yt-dlp
 
-      # ✅ Correct TwitchDownloaderCLI install (ZIP version)
       - name: Install TwitchDownloaderCLI
         run: |
           VERSION=$(curl -s https://api.github.com/repos/lay295/TwitchDownloader/releases/latest | grep tag_name | cut -d '"' -f 4)
@@ -40,10 +39,10 @@ jobs:
       - name: Normalize chats
         run: python scripts/normalize_chat.py
 
-      - name: Commit changes
+      - name: Commit only archive data
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add .
+          git add data/
           git commit -m "Archive Twitch VODs" || echo "No changes"
           git push
