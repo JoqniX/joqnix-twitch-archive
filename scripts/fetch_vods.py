@@ -10,6 +10,8 @@ ARCHIVE_ROOT = Path("data/twitch_archive")
 INDEX_FILE = ARCHIVE_ROOT / "index.json"
 
 MINIMUM_AGE_SECONDS = 1800  # 30 minutes
+CHAT_RETRIES = 5
+CHAT_DELAY = 60
 
 
 def run(cmd):
@@ -18,6 +20,16 @@ def run(cmd):
         print(result.stderr)
         return None
     return result.stdout
+
+
+def normalize_vod_id(raw_id):
+    """
+    yt-dlp returns 'v2706447494'
+    We want '2706447494'
+    """
+    if raw_id.startswith("v"):
+        return raw_id[1:]
+    return raw_id
 
 
 def load_index():
@@ -35,7 +47,7 @@ def save_index(data):
 
 
 def fetch_channel_vods(channel):
-    print(f"Fetching VOD list for {channel}...")
+    print(f"\nFetching VOD list for {channel}...")
     url = f"https://www.twitch.tv/{channel}/videos?filter=archives"
 
     cmd = f'yt-dlp --cookies {COOKIES_FILE} -J "{url}"'
@@ -59,47 +71,62 @@ def download_thumbnail(url, folder):
 
 
 def download_chat(vod_id, folder):
-    print(f"Downloading chat for {vod_id}...")
+    """
+    Retry chat download if Twitch is still processing.
+    """
 
-    result = subprocess.run(
-        f'TwitchDownloaderCLI chatdownload '
-        f'--id {vod_id} '
-        f'-o "{folder}/chat_raw.json"',
-        shell=True
-    )
+    for attempt in range(1, CHAT_RETRIES + 1):
+        print(f"[{vod_id}] Chat attempt {attempt}/{CHAT_RETRIES}")
 
-    if result.returncode != 0:
-        print(f"⚠️ Chat failed for {vod_id}. Skipping.")
-        return False
+        result = subprocess.run(
+            f'TwitchDownloaderCLI chatdownload '
+            f'--id {vod_id} '
+            f'--output "{folder}/chat_raw.json" '
+            f'--format json',
+            shell=True
+        )
 
-    return True
+        if result.returncode == 0:
+            print(f"[{vod_id}] ✅ Chat download successful.")
+            return True
+
+        print(f"[{vod_id}] ⚠️ Chat failed. Retrying in {CHAT_DELAY}s...")
+        time.sleep(CHAT_DELAY)
+
+    print(f"[{vod_id}] ❌ Chat failed after retries.")
+    return False
 
 
 def is_valid_archive(vod):
+    raw_id = vod.get("id")
+    vod_id = normalize_vod_id(raw_id)
+
     if not vod.get("was_live"):
-        print(f"Skipping non-livestream: {vod.get('id')}")
+        print(f"Skipping non-livestream: {vod_id}")
         return False
 
     if vod.get("is_live"):
-        print(f"Skipping live stream: {vod.get('id')}")
+        print(f"Skipping live stream: {vod_id}")
         return False
 
     if not vod.get("duration"):
-        print(f"Skipping unfinished VOD: {vod.get('id')}")
+        print(f"Skipping unfinished VOD: {vod_id}")
         return False
 
     timestamp = vod.get("timestamp")
     if timestamp:
         if time.time() - timestamp < MINIMUM_AGE_SECONDS:
-            print(f"Skipping too recent VOD: {vod.get('id')}")
+            print(f"Skipping too recent VOD: {vod_id}")
             return False
 
     return True
 
 
 def archive_metadata(channel, vod, folder):
+    vod_id = normalize_vod_id(vod["id"])
+
     metadata = {
-        "id": vod["id"],
+        "id": vod_id,
         "title": vod.get("title"),
         "created_at": vod.get("upload_date"),
         "timestamp": vod.get("timestamp"),
@@ -129,7 +156,8 @@ def main():
         vods = fetch_channel_vods(channel)
 
         for vod in vods:
-            vod_id = vod["id"]
+            raw_id = vod["id"]
+            vod_id = normalize_vod_id(raw_id)
 
             if not is_valid_archive(vod):
                 continue
@@ -139,9 +167,9 @@ def main():
 
             chat_file = folder / "chat_raw.json"
 
-            # If metadata not archived yet
+            # Archive metadata if new
             if vod_id not in existing_ids:
-                print(f"Archiving metadata for {channel} VOD: {vod_id}")
+                print(f"\nArchiving metadata for {channel} VOD: {vod_id}")
                 archive_metadata(channel, vod, folder)
 
                 if vod.get("thumbnail"):
@@ -149,12 +177,12 @@ def main():
 
                 index_data["channels"][channel]["vod_ids"].append(vod_id)
 
-            # If chat missing, attempt download
+            # Always attempt chat if missing
             if not chat_file.exists():
-                print(f"Chat missing for {vod_id}, attempting download...")
+                print(f"[{vod_id}] Chat missing. Attempting download...")
                 download_chat(vod_id, folder)
             else:
-                print(f"Chat already exists for {vod_id}")
+                print(f"[{vod_id}] Chat already exists.")
 
     save_index(index_data)
 
