@@ -148,6 +148,25 @@ def update_metadata_index(index, vod_id, channel, vod):
     }
 
 
+def rebuild_metadata_from_file(metadata_index, vod_id, folder):
+    metadata_file = folder / "metadata.json"
+
+    if not metadata_file.exists():
+        return
+
+    data = json.loads(metadata_file.read_text())
+
+    metadata_index[vod_id] = {
+        "channel": data.get("channel"),
+        "timestamp": data.get("timestamp"),
+        "created_at_iso": data.get("created_at"),
+        "duration_seconds": data.get("duration_seconds"),
+        "title": data.get("title")
+    }
+
+    print(f"[metadata_index] Rebuilt entry for {vod_id}")
+
+
 def main():
     ARCHIVE_ROOT.mkdir(parents=True, exist_ok=True)
 
@@ -174,6 +193,7 @@ def main():
 
             chat_file = folder / "chat_raw.json"
 
+            # NEW VOD
             if vod_id not in existing_ids:
                 print(f"\nArchiving metadata for {channel} VOD: {vod_id}")
 
@@ -186,6 +206,12 @@ def main():
 
                 update_metadata_index(metadata_index, vod_id, channel, vod)
 
+            # EXISTING VOD — ensure metadata index entry exists
+            else:
+                if vod_id not in metadata_index:
+                    rebuild_metadata_from_file(metadata_index, vod_id, folder)
+
+            # CHAT DOWNLOAD
             if not chat_file.exists():
                 print(f"[{vod_id}] Chat missing. Attempting download...")
                 download_chat(vod_id, folder)
