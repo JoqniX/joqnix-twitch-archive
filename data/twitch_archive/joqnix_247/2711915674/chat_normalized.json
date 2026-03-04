@@ -1,0 +1,48 @@
+{
+  "vod_id": "2711915674",
+  "streamer": {
+    "name": "JoqniX_247",
+    "login": "joqnix_247",
+    "id": 1403384980
+  },
+  "video": {
+    "title": "24/7 @joqnix | VODS AND STREAMS",
+    "created_at": "2026-03-02T15:49:43Z",
+    "duration": 154588,
+    "game": "Always On"
+  },
+  "messages": [
+    {
+      "id": "a7033167-59f4-471a-b771-5627063e5ede",
+      "timestamp": 11,
+      "timestamp_iso": "2026-03-02T15:49:54.115Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    }
+  ]
+}
