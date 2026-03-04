@@ -8,8 +8,9 @@ COOKIES_FILE = "cookies.txt"
 
 ARCHIVE_ROOT = Path("data/twitch_archive")
 INDEX_FILE = ARCHIVE_ROOT / "index.json"
+METADATA_INDEX_FILE = ARCHIVE_ROOT / "metadata_index.json"
 
-MINIMUM_AGE_SECONDS = 1800  # 30 min
+MINIMUM_AGE_SECONDS = 1800
 CHAT_RETRIES = 5
 CHAT_DELAY = 60
 
@@ -30,16 +31,22 @@ def normalize_vod_id(raw_id):
 
 def load_index():
     if not INDEX_FILE.exists():
-        return {
-            "channels": {
-                ch: {"vod_ids": []} for ch in CHANNELS
-            }
-        }
+        return {"channels": {ch: {"vod_ids": []} for ch in CHANNELS}}
     return json.loads(INDEX_FILE.read_text())
 
 
 def save_index(data):
     INDEX_FILE.write_text(json.dumps(data, indent=2))
+
+
+def load_metadata_index():
+    if not METADATA_INDEX_FILE.exists():
+        return {}
+    return json.loads(METADATA_INDEX_FILE.read_text())
+
+
+def save_metadata_index(data):
+    METADATA_INDEX_FILE.write_text(json.dumps(data, indent=2))
 
 
 def fetch_channel_vods(channel):
@@ -131,17 +138,27 @@ def archive_metadata(channel, vod, folder):
     )
 
 
+def update_metadata_index(index, vod_id, channel, vod):
+    index[vod_id] = {
+        "channel": channel,
+        "timestamp": vod.get("timestamp"),
+        "created_at_iso": vod.get("upload_date"),
+        "duration_seconds": vod.get("duration"),
+        "title": vod.get("title")
+    }
+
+
 def main():
     ARCHIVE_ROOT.mkdir(parents=True, exist_ok=True)
+
     index_data = load_index()
+    metadata_index = load_metadata_index()
 
     for channel in CHANNELS:
         channel_root = ARCHIVE_ROOT / channel
         channel_root.mkdir(parents=True, exist_ok=True)
 
-        existing_ids = set(
-            index_data["channels"][channel]["vod_ids"]
-        )
+        existing_ids = set(index_data["channels"][channel]["vod_ids"])
 
         vods = fetch_channel_vods(channel)
 
@@ -159,12 +176,15 @@ def main():
 
             if vod_id not in existing_ids:
                 print(f"\nArchiving metadata for {channel} VOD: {vod_id}")
+
                 archive_metadata(channel, vod, folder)
 
                 if vod.get("thumbnail"):
                     download_thumbnail(vod["thumbnail"], folder)
 
                 index_data["channels"][channel]["vod_ids"].append(vod_id)
+
+                update_metadata_index(metadata_index, vod_id, channel, vod)
 
             if not chat_file.exists():
                 print(f"[{vod_id}] Chat missing. Attempting download...")
@@ -173,6 +193,7 @@ def main():
                 print(f"[{vod_id}] Chat already exists.")
 
     save_index(index_data)
+    save_metadata_index(metadata_index)
 
 
 if __name__ == "__main__":
