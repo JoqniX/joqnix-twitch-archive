@@ -1,0 +1,221 @@
+{
+  "vod_id": "2713523692",
+  "streamer": {
+    "name": "JoqniX_247",
+    "login": "joqnix_247",
+    "id": 1403384980
+  },
+  "video": {
+    "title": "24/7 @joqnix | VODS AND STREAMS",
+    "created_at": "2026-03-04T12:49:33Z",
+    "duration": 172791,
+    "game": "Always On"
+  },
+  "messages": [
+    {
+      "id": "cbc16cfa-7f6d-4d50-9f21-341dc3844c16",
+      "timestamp_seconds": 12,
+      "timestamp_hms": "00:00:12",
+      "timestamp_iso": "2026-03-04T12:49:45.871Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "a5712753-69e5-46c9-ab0b-228e51cd09bf",
+      "timestamp_seconds": 3177,
+      "timestamp_hms": "00:52:57",
+      "timestamp_iso": "2026-03-04T13:42:31.605Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/59116805-3e31-426f-9747-833b010c853e-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "2 raiders from JoqniX have joined! "
+        }
+      ]
+    },
+    {
+      "id": "143f5c77-6367-4e0c-b3ed-e47a6f8a8495",
+      "timestamp_seconds": 3384,
+      "timestamp_hms": "00:56:24",
+      "timestamp_iso": "2026-03-04T13:45:57.944Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/59116805-3e31-426f-9747-833b010c853e-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "1 raiders from JoqniX have joined! "
+        }
+      ]
+    },
+    {
+      "id": "9bd63dd8-3897-4724-90f0-4a32dd79edde",
+      "timestamp_seconds": 42255,
+      "timestamp_hms": "11:44:15",
+      "timestamp_iso": "2026-03-05T00:33:48.948Z",
+      "user": {
+        "id": "1452623186",
+        "display_name": "dreamlink_agency1",
+        "login": "dreamlink_agency1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/584490fd-3441-4fcb-96c4-9e9573b915a0-profile_image-70x70.jpeg",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Hey what's up"
+        }
+      ]
+    },
+    {
+      "id": "933db3ed-9ec1-4495-bbfc-aba18c1538c2",
+      "timestamp_seconds": 42513,
+      "timestamp_hms": "11:48:33",
+      "timestamp_iso": "2026-03-05T00:38:06.755Z",
+      "user": {
+        "id": "1452623186",
+        "display_name": "dreamlink_agency1",
+        "login": "dreamlink_agency1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/584490fd-3441-4fcb-96c4-9e9573b915a0-profile_image-70x70.jpeg",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "How are you doing"
+        }
+      ]
+    },
+    {
+      "id": "9ddb3dbf-171e-4a39-ac01-db67e9ec222d",
+      "timestamp_seconds": 123353,
+      "timestamp_hms": "34:15:53",
+      "timestamp_iso": "2026-03-05T23:05:26.96Z",
+      "user": {
+        "id": "241427255",
+        "display_name": "FrodoTbaggins00",
+        "login": "frodotbaggins00",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/af9bac27-4d74-44e1-ae3c-2ac7eec0adf0-profile_image-70x70.png",
+        "color": "#FF94DA",
+        "badges": [
+          {
+            "_id": "bingbonglove",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "emote",
+          "id": "emotesv2_24c0705dd6ee4a0cadb5ec61cef156f6",
+          "name": "frodot8Dancetime"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_24c0705dd6ee4a0cadb5ec61cef156f6",
+          "name": "frodot8Dancetime"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_24c0705dd6ee4a0cadb5ec61cef156f6",
+          "name": "frodot8Dancetime"
+        }
+      ]
+    },
+    {
+      "id": "81e63d7e-4d34-433d-b479-86dd6a61a34e",
+      "timestamp_seconds": 154798,
+      "timestamp_hms": "42:59:58",
+      "timestamp_iso": "2026-03-06T07:49:32.156Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/59116805-3e31-426f-9747-833b010c853e-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "1 raiders from JoqniX have joined! "
+        }
+      ]
+    }
+  ]
+}
