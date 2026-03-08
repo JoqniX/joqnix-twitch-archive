@@ -1,0 +1,160 @@
+{
+  "vod_id": "2715554126",
+  "streamer": {
+    "name": "JoqniX_247",
+    "login": "joqnix_247",
+    "id": 1403384980
+  },
+  "video": {
+    "title": "24/7 @joqnix | VODS AND STREAMS",
+    "created_at": "2026-03-06T20:52:12Z",
+    "duration": 130481,
+    "game": "Always On"
+  },
+  "messages": [
+    {
+      "id": "acfc5555-e5d0-468f-96f7-d5237e74b532",
+      "timestamp_seconds": 12,
+      "timestamp_hms": "00:00:12",
+      "timestamp_iso": "2026-03-06T20:52:24.283Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "24f0a66d-532c-426c-9f3d-c5a6e783aeee",
+      "timestamp_seconds": 38727,
+      "timestamp_hms": "10:45:27",
+      "timestamp_iso": "2026-03-07T07:37:39.215Z",
+      "user": {
+        "id": "1394722326",
+        "display_name": "phoenixharppy",
+        "login": "phoenixharppy",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a528e983-cb27-4b71-99b4-1dd0b0e4e468-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "hey"
+        }
+      ]
+    },
+    {
+      "id": "1bcc5f9b-f4ab-4563-ba97-24b016f23c4c",
+      "timestamp_seconds": 38733,
+      "timestamp_hms": "10:45:33",
+      "timestamp_iso": "2026-03-07T07:37:44.949Z",
+      "user": {
+        "id": "1394722326",
+        "display_name": "phoenixharppy",
+        "login": "phoenixharppy",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a528e983-cb27-4b71-99b4-1dd0b0e4e468-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "buddyyyyyyyyyy"
+        }
+      ]
+    },
+    {
+      "id": "4511aeb9-79d5-432d-8f29-0a2c1fa59442",
+      "timestamp_seconds": 38769,
+      "timestamp_hms": "10:46:09",
+      "timestamp_iso": "2026-03-07T07:38:20.848Z",
+      "user": {
+        "id": "1394722326",
+        "display_name": "phoenixharppy",
+        "login": "phoenixharppy",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a528e983-cb27-4b71-99b4-1dd0b0e4e468-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "emote",
+          "id": "emotesv2_e7037700150b485e9348d2bd03a06ea7",
+          "name": "ellama1Wave"
+        },
+        {
+          "type": "text",
+          "text": " "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_e7037700150b485e9348d2bd03a06ea7",
+          "name": "ellama1Wave"
+        }
+      ]
+    },
+    {
+      "id": "1bd6f88d-8648-4939-83a3-2d1966d2ae9e",
+      "timestamp_seconds": 38826,
+      "timestamp_hms": "10:47:06",
+      "timestamp_iso": "2026-03-07T07:39:18.126Z",
+      "user": {
+        "id": "1394722326",
+        "display_name": "phoenixharppy",
+        "login": "phoenixharppy",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a528e983-cb27-4b71-99b4-1dd0b0e4e468-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "well which game is this"
+        }
+      ]
+    },
+    {
+      "id": "87d4702e-f69b-410c-b129-1d3e3a336a07",
+      "timestamp_seconds": 38959,
+      "timestamp_hms": "10:49:19",
+      "timestamp_iso": "2026-03-07T07:41:30.8Z",
+      "user": {
+        "id": "1394722326",
+        "display_name": "phoenixharppy",
+        "login": "phoenixharppy",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a528e983-cb27-4b71-99b4-1dd0b0e4e468-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "anyone see my chatss"
+        }
+      ]
+    }
+  ]
+}
