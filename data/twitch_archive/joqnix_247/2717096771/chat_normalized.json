@@ -1,0 +1,148 @@
+{
+  "vod_id": "2717096771",
+  "streamer": {
+    "name": "JoqniX_247",
+    "login": "joqnix_247",
+    "id": 1403384980
+  },
+  "video": {
+    "title": "24/7 @joqnix | VODS AND STREAMS",
+    "created_at": "2026-03-08T14:00:08Z",
+    "duration": 172747,
+    "game": "Always On"
+  },
+  "messages": [
+    {
+      "id": "ac580492-0cbd-4d96-9f25-6a6aeec1f042",
+      "timestamp_seconds": 8,
+      "timestamp_hms": "00:00:08",
+      "timestamp_iso": "2026-03-08T14:00:17.46Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "c86ef6e0-4e07-43c1-9a20-6ef1d3d11197",
+      "timestamp_seconds": 95291,
+      "timestamp_hms": "26:28:11",
+      "timestamp_iso": "2026-03-09T16:28:19.793Z",
+      "user": {
+        "id": "1325485181",
+        "display_name": "zella_vt1",
+        "login": "zella_vt1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/d7bf25b6-154f-4928-80b9-d01b9ece050c-profile_image-70x70.png",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Heyyy wassup!"
+        }
+      ]
+    },
+    {
+      "id": "6211dcf3-4565-41bb-8851-39e8582be427",
+      "timestamp_seconds": 111970,
+      "timestamp_hms": "31:06:10",
+      "timestamp_iso": "2026-03-09T21:06:19.111Z",
+      "user": {
+        "id": "1128072577",
+        "display_name": "vt_miyokiki",
+        "login": "vt_miyokiki",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/785ed55b-7b4d-498d-9bb4-573331631953-profile_image-70x70.png",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "?"
+        }
+      ]
+    },
+    {
+      "id": "9fae77cd-7018-43f6-b493-0770f201bf8d",
+      "timestamp_seconds": 147130,
+      "timestamp_hms": "40:52:10",
+      "timestamp_iso": "2026-03-10T06:52:19.212Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/59116805-3e31-426f-9747-833b010c853e-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "1 raiders from JoqniX have joined! "
+        }
+      ]
+    },
+    {
+      "id": "8be80bf8-00c5-475c-8bda-5e00534496ba",
+      "timestamp_seconds": 147230,
+      "timestamp_hms": "40:53:50",
+      "timestamp_iso": "2026-03-10T06:53:59.317Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/59116805-3e31-426f-9747-833b010c853e-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "1 raiders from JoqniX have joined! "
+        }
+      ]
+    }
+  ]
+}
