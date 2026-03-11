@@ -1,0 +1,120 @@
+{
+  "vod_id": "2718883849",
+  "streamer": {
+    "name": "JoqniX_247",
+    "login": "joqnix_247",
+    "id": 1403384980
+  },
+  "video": {
+    "title": "24/7 @joqnix | VODS AND STREAMS",
+    "created_at": "2026-03-10T17:42:30Z",
+    "duration": 54859,
+    "game": "Always On"
+  },
+  "messages": [
+    {
+      "id": "3f740c7a-b62b-4014-b8d2-ed876de2b42a",
+      "timestamp_seconds": 7,
+      "timestamp_hms": "00:00:07",
+      "timestamp_iso": "2026-03-10T17:42:37.192Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "fb377f44-2e14-4a0f-8a38-71f96e2c9d63",
+      "timestamp_seconds": 766,
+      "timestamp_hms": "00:12:46",
+      "timestamp_iso": "2026-03-10T17:55:16.175Z",
+      "user": {
+        "id": "218954525",
+        "display_name": "bogoo92",
+        "login": "bogoo92",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/2d7b4aea-369b-49e1-af56-b925cd22a955-profile_image-70x70.png",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "GM"
+        }
+      ]
+    },
+    {
+      "id": "345fae15-5712-4fe2-9e2c-c5548aa20591",
+      "timestamp_seconds": 990,
+      "timestamp_hms": "00:16:30",
+      "timestamp_iso": "2026-03-10T17:59:00.619Z",
+      "user": {
+        "id": "964489363",
+        "display_name": "octavia_vt",
+        "login": "octavia_vt",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0fc8a686-58b1-4518-a0b6-c0b76da0cab6-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": [
+          {
+            "_id": "twitch-recap-2025",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Heyyo wassup"
+        }
+      ]
+    },
+    {
+      "id": "14b7bd3f-c427-47a5-8e44-2d088ddb6d12",
+      "timestamp_seconds": 993,
+      "timestamp_hms": "00:16:33",
+      "timestamp_iso": "2026-03-10T17:59:03.686Z",
+      "user": {
+        "id": "964489363",
+        "display_name": "octavia_vt",
+        "login": "octavia_vt",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/0fc8a686-58b1-4518-a0b6-c0b76da0cab6-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": [
+          {
+            "_id": "twitch-recap-2025",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "How are you?"
+        }
+      ]
+    }
+  ]
+}
