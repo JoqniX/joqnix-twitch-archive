@@ -1,0 +1,62 @@
+name: Test Cookie Sync Worker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test Twitch cookie endpoint
+        env:
+          COOKIE_SYNC_TOKEN: ${{ secrets.COOKIE_SYNC_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "Testing Twitch Cookie Sync Worker..."
+
+          HTTP_STATUS=$(curl \
+            --silent \
+            --show-error \
+            --output /tmp/cookie-response.json \
+            --dump-header /tmp/cookie-headers.txt \
+            --write-out "%{http_code}" \
+            --retry 2 \
+            -H "Authorization: Bearer ${COOKIE_SYNC_TOKEN}" \
+            -H "Accept: application/json" \
+            "https://api.joqnix.space/cookies/twitch.tv")
+
+          echo ""
+          echo "HTTP status: ${HTTP_STATUS}"
+
+          echo ""
+          echo "Response headers:"
+          cat /tmp/cookie-headers.txt
+
+          if [ "${HTTP_STATUS}" = "200" ]; then
+            echo ""
+            echo "✅ Cloudflare Worker is reachable."
+
+            echo ""
+            echo "Response structure:"
+            jq '{
+              success,
+              domain,
+              totalCookies,
+              hasNetscape: (
+                (.netscape | type) == "string"
+                and (.netscape | length) > 0
+              )
+            }' /tmp/cookie-response.json
+
+          else
+            echo ""
+            echo "❌ Cloudflare Worker request failed."
+
+            echo ""
+            echo "Response body:"
+            cat /tmp/cookie-response.json
+
+            exit 1
+          fi
