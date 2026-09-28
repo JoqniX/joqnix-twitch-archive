@@ -3,8 +3,6 @@ import os
 import subprocess
 import time
 from pathlib import Path
-from urllib.request import Request, urlopen
-from urllib.error import HTTPError, URLError
 
 
 CHANNELS = ["joqnix", "joqnix_247"]
@@ -110,37 +108,45 @@ def fetch_twitch_cookies():
         "Fetching Twitch cookies from Cloudflare..."
     )
 
-    request = Request(
-        COOKIE_API_URL,
-        headers={
-            "Authorization": f"Bearer {token}",
-            "Accept": "application/json"
-        },
-        method="GET"
-    )
-
     try:
-        with urlopen(
-            request,
-            timeout=30
-        ) as response:
-            raw_response = (
-                response
-                .read()
-                .decode("utf-8")
-            )
+        result = subprocess.run(
+            [
+                "curl",
+                "--fail",
+                "--silent",
+                "--show-error",
+                "--retry",
+                "3",
+                "--retry-delay",
+                "2",
+                "-H",
+                f"Authorization: Bearer {token}",
+                "-H",
+                "Accept: application/json",
+                COOKIE_API_URL
+            ],
+            capture_output=True,
+            text=True,
+            timeout=60
+        )
 
-    except HTTPError as error:
+    except subprocess.TimeoutExpired as error:
         raise RuntimeError(
-            f"Cloudflare cookie request failed "
-            f"with HTTP {error.code}."
+            "Cloudflare cookie request timed out."
         ) from error
 
-    except URLError as error:
+    if result.returncode != 0:
+        error_message = (
+            result.stderr.strip()
+            or "Unknown curl error."
+        )
+
         raise RuntimeError(
-            f"Could not connect to Cloudflare cookie service: "
-            f"{error.reason}"
-        ) from error
+            "Cloudflare cookie request failed: "
+            f"{error_message}"
+        )
+
+    raw_response = result.stdout
 
     try:
         data = json.loads(
@@ -153,19 +159,24 @@ def fetch_twitch_cookies():
 
     if not data.get("success"):
         raise RuntimeError(
-            "Cloudflare cookie service returned an unsuccessful response."
+            "Cloudflare cookie service returned "
+            "an unsuccessful response."
         )
 
     netscape = data.get(
         "netscape"
     )
 
-    if not isinstance(
-        netscape,
-        str
-    ) or not netscape.strip():
+    if (
+        not isinstance(
+            netscape,
+            str
+        )
+        or not netscape.strip()
+    ):
         raise RuntimeError(
-            "Cloudflare response did not contain a valid Netscape cookie file."
+            "Cloudflare response did not contain "
+            "a valid Netscape cookie file."
         )
 
     Path(
@@ -186,7 +197,6 @@ def fetch_twitch_cookies():
         f"Twitch cookie file updated "
         f"({len(cookie_lines)} cookies)."
     )
-
 
 def fetch_channel_vods(channel):
     print(
