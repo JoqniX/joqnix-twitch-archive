@@ -1,0 +1,79 @@
+{
+  "vod_id": "2904933977",
+  "streamer": {
+    "name": "JoqniX",
+    "login": "joqnix",
+    "id": 178918623
+  },
+  "video": {
+    "title": "\u304a\u305d\u3068\u96d1\u8ac7\u30fbOutdoor Stream #23\u250a \u2726 Let's enjoy the sunset underneath the bridge again~ EN/JP | JoqniX",
+    "created_at": "2026-10-19T09:32:44Z",
+    "duration": 34,
+    "game": "IRL"
+  },
+  "messages": [
+    {
+      "id": "b59f1a40-9695-4b68-8a18-f35215b0dcfb",
+      "timestamp_seconds": 8,
+      "timestamp_hms": "00:00:08",
+      "timestamp_iso": "2026-10-19T09:32:53.318Z",
+      "user": {
+        "id": "237719657",
+        "display_name": "Fossabot",
+        "login": "fossabot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/719a0ffa-6c86-4321-83f1-44990fd644bc-profile_image-70x70.png",
+        "color": "#1976D2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "JoqniX is now live! Streaming IRL: \u304a\u305d\u3068\u96d1\u8ac7\u30fbOutdoor Stream #23\u250a \u2726 Let's enjoy the sunset underneath the bridge again~ EN/JP | JoqniX"
+        }
+      ]
+    },
+    {
+      "id": "67eac7d1-c0fc-4564-a533-17dbf99a5fd1",
+      "timestamp_seconds": 8,
+      "timestamp_hms": "00:00:08",
+      "timestamp_iso": "2026-10-19T09:32:53.38Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    }
+  ]
+}
