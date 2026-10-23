@@ -52,4 +52,5 @@ jobs:
 
           git commit -m "Archive Twitch VODs" || echo "No changes"
 
-          git push
+          git pull --rebase origin Main-dayo
+          git push origin Main-dayo
