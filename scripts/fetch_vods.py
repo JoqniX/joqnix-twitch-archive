@@ -217,7 +217,12 @@ def fetch_channel_vods(channel):
     output = run(cmd)
 
     if not output:
-        return []
+        # Fail loudly: a silent empty list hides expired cookies
+        # and the workflow would stay green.
+        raise RuntimeError(
+            f"yt-dlp returned no data for {channel}. "
+            "Check that the synced Twitch cookies are still valid."
+        )
 
     data = json.loads(
         output
