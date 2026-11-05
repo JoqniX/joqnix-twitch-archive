@@ -1,0 +1,1927 @@
+{
+  "vod_id": "2920210102",
+  "streamer": {
+    "name": "JoqniX",
+    "login": "joqnix",
+    "id": 178918623
+  },
+  "video": {
+    "title": "Minecraft #20 \u250a \u2726 First time in Eden SMP - Day 2  ~  EN/JP | JoqniX",
+    "created_at": "2026-11-05T13:38:00Z",
+    "duration": 9785,
+    "game": "Minecraft"
+  },
+  "messages": [
+    {
+      "id": "9cb48d92-680e-4e6c-985e-a710c690504b",
+      "timestamp_seconds": 10,
+      "timestamp_hms": "00:00:10",
+      "timestamp_iso": "2026-11-05T13:38:10.44Z",
+      "user": {
+        "id": "237719657",
+        "display_name": "Fossabot",
+        "login": "fossabot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/719a0ffa-6c86-4321-83f1-44990fd644bc-profile_image-70x70.png",
+        "color": "#1976D2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "JoqniX is now live! Streaming Minecraft: Minecraft #20 \u250a \u2726 First time in Eden SMP - Day 2  ~  EN/JP | JoqniX"
+        }
+      ]
+    },
+    {
+      "id": "4265fcee-2a12-4f55-b96f-8caf7805f2fd",
+      "timestamp_seconds": 10,
+      "timestamp_hms": "00:00:10",
+      "timestamp_iso": "2026-11-05T13:38:10.515Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "56c1d584-b42e-483d-9647-e81d66b265a4",
+      "timestamp_seconds": 549,
+      "timestamp_hms": "00:09:09",
+      "timestamp_iso": "2026-11-05T13:47:09.374Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "7f0e4359-dba2-43da-b074-645b259b9171",
+      "timestamp_seconds": 616,
+      "timestamp_hms": "00:10:16",
+      "timestamp_iso": "2026-11-05T13:48:16.066Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "a95d12f0-2ae4-48ce-bddd-d126fa4c8772",
+      "timestamp_seconds": 706,
+      "timestamp_hms": "00:11:46",
+      "timestamp_iso": "2026-11-05T13:49:46.14Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "ffa4e444-55d7-42af-8bd2-24eb147b3138",
+      "timestamp_seconds": 1953,
+      "timestamp_hms": "00:32:33",
+      "timestamp_iso": "2026-11-05T14:10:33.055Z",
+      "user": {
+        "id": "1468900828",
+        "display_name": "akanekurokawa1",
+        "login": "akanekurokawa1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0fa83f0-77a1-428c-b2eb-5409af51bd1b-profile_image-70x70.png",
+        "color": "#FF69B4",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Hii konada"
+        }
+      ]
+    },
+    {
+      "id": "b28c5c13-81d4-401c-a4d3-0f373abb64e0",
+      "timestamp_seconds": 1962,
+      "timestamp_hms": "00:32:42",
+      "timestamp_iso": "2026-11-05T14:10:42.253Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Hii @akanekurokawa1 "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a731d7d72c964787820d07515347d3ef",
+          "name": "skulaaHELLO"
+        }
+      ]
+    },
+    {
+      "id": "c5b86731-7ed8-44e6-a1ae-77f2a9397551",
+      "timestamp_seconds": 1973,
+      "timestamp_hms": "00:32:53",
+      "timestamp_iso": "2026-11-05T14:10:52.708Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "How are you"
+        }
+      ]
+    },
+    {
+      "id": "89ab778c-3292-4ee0-aade-330cb3cc0a80",
+      "timestamp_seconds": 1985,
+      "timestamp_hms": "00:33:05",
+      "timestamp_iso": "2026-11-05T14:11:05.214Z",
+      "user": {
+        "id": "1468900828",
+        "display_name": "akanekurokawa1",
+        "login": "akanekurokawa1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0fa83f0-77a1-428c-b2eb-5409af51bd1b-profile_image-70x70.png",
+        "color": "#FF69B4",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "I am doing fine"
+        }
+      ]
+    },
+    {
+      "id": "95441f79-9c7d-4f55-acad-b806e39509be",
+      "timestamp_seconds": 1998,
+      "timestamp_hms": "00:33:18",
+      "timestamp_iso": "2026-11-05T14:11:17.759Z",
+      "user": {
+        "id": "1468900828",
+        "display_name": "akanekurokawa1",
+        "login": "akanekurokawa1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0fa83f0-77a1-428c-b2eb-5409af51bd1b-profile_image-70x70.png",
+        "color": "#FF69B4",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "What about you konada"
+        }
+      ]
+    },
+    {
+      "id": "e8af0388-76ea-4826-a49e-9fb6c11f4572",
+      "timestamp_seconds": 2020,
+      "timestamp_hms": "00:33:40",
+      "timestamp_iso": "2026-11-05T14:11:40.108Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "I am doing well too thanks for asking dear "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_5e6698d70dfa4e108a6a8a3ea48bbcec",
+          "name": "studio58Heart"
+        }
+      ]
+    },
+    {
+      "id": "5646123c-484c-4e16-a6c9-e1094fd88522",
+      "timestamp_seconds": 2100,
+      "timestamp_hms": "00:35:00",
+      "timestamp_iso": "2026-11-05T14:13:00.496Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "I gotta go"
+        }
+      ]
+    },
+    {
+      "id": "e20d557f-99ba-4417-92fb-f851807d035a",
+      "timestamp_seconds": 2109,
+      "timestamp_hms": "00:35:09",
+      "timestamp_iso": "2026-11-05T14:13:08.707Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Bye joq "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_ce95a63b1617467e9fd7fba03632b795",
+          "name": "lachesisMlem"
+        }
+      ]
+    },
+    {
+      "id": "616af85c-3d70-4dff-b037-fadea288276b",
+      "timestamp_seconds": 2144,
+      "timestamp_hms": "00:35:44",
+      "timestamp_iso": "2026-11-05T14:13:44.562Z",
+      "user": {
+        "id": "1468900828",
+        "display_name": "akanekurokawa1",
+        "login": "akanekurokawa1",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/b0fa83f0-77a1-428c-b2eb-5409af51bd1b-profile_image-70x70.png",
+        "color": "#FF69B4",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Byee konada"
+        }
+      ]
+    },
+    {
+      "id": "21aa5962-b3b2-405e-8dbb-ed5a131f93e4",
+      "timestamp_seconds": 2160,
+      "timestamp_hms": "00:36:00",
+      "timestamp_iso": "2026-11-05T14:13:59.721Z",
+      "user": {
+        "id": "653164267",
+        "display_name": "dj_mator906",
+        "login": "dj_mator906",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a13d0a7-00dd-4680-bc61-4a967d18523e-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "okay i am here now"
+        }
+      ]
+    },
+    {
+      "id": "0b032f6e-1e50-4533-b794-daedd0eae3a5",
+      "timestamp_seconds": 2161,
+      "timestamp_hms": "00:36:01",
+      "timestamp_iso": "2026-11-05T14:14:00.844Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "@akanekurokawa1 "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a731d7d72c964787820d07515347d3ef",
+          "name": "skulaaHELLO"
+        }
+      ]
+    },
+    {
+      "id": "1dde71d5-f1c4-4d70-8831-7256265e3a42",
+      "timestamp_seconds": 2244,
+      "timestamp_hms": "00:37:24",
+      "timestamp_iso": "2026-11-05T14:15:23.928Z",
+      "user": {
+        "id": "653164267",
+        "display_name": "dj_mator906",
+        "login": "dj_mator906",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a13d0a7-00dd-4680-bc61-4a967d18523e-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "argument?"
+        }
+      ]
+    },
+    {
+      "id": "85d106ba-d7ee-4e80-964c-66d10169d46b",
+      "timestamp_seconds": 2305,
+      "timestamp_hms": "00:38:25",
+      "timestamp_iso": "2026-11-05T14:16:25.634Z",
+      "user": {
+        "id": "653164267",
+        "display_name": "dj_mator906",
+        "login": "dj_mator906",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a13d0a7-00dd-4680-bc61-4a967d18523e-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "alr"
+        }
+      ]
+    },
+    {
+      "id": "394ba81d-ab2d-4256-9dcb-202e5f9d28f7",
+      "timestamp_seconds": 2349,
+      "timestamp_hms": "00:39:09",
+      "timestamp_iso": "2026-11-05T14:17:09.5Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "0d468155-da52-44c4-85c1-e3c8ff9577cf",
+      "timestamp_seconds": 2380,
+      "timestamp_hms": "00:39:40",
+      "timestamp_iso": "2026-11-05T14:17:40.559Z",
+      "user": {
+        "id": "653164267",
+        "display_name": "dj_mator906",
+        "login": "dj_mator906",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a13d0a7-00dd-4680-bc61-4a967d18523e-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "i tried everything, maybe they don't want it or haven't realized that i was contacting"
+        }
+      ]
+    },
+    {
+      "id": "f0549084-3148-40ac-825c-001b854749ef",
+      "timestamp_seconds": 2416,
+      "timestamp_hms": "00:40:16",
+      "timestamp_iso": "2026-11-05T14:18:16.268Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_6b30e6913df444a18638bd61781e7c6f",
+          "name": "seryboDance"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "87dbbe30-f2fd-47ab-809e-b2036e464fb9",
+      "timestamp_seconds": 2460,
+      "timestamp_hms": "00:41:00",
+      "timestamp_iso": "2026-11-05T14:19:00.565Z",
+      "user": {
+        "id": "653164267",
+        "display_name": "dj_mator906",
+        "login": "dj_mator906",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/1a13d0a7-00dd-4680-bc61-4a967d18523e-profile_image-70x70.png",
+        "color": "#FF0000",
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "true, but i will always check for defib from now on"
+        }
+      ]
+    },
+    {
+      "id": "95f3e9eb-ca5d-43ac-9d1e-54b5bd7532d9",
+      "timestamp_seconds": 2506,
+      "timestamp_hms": "00:41:46",
+      "timestamp_iso": "2026-11-05T14:19:46.12Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_6b30e6913df444a18638bd61781e7c6f",
+          "name": "seryboDance"
+        }
+      ]
+    },
+    {
+      "id": "321e660e-e945-48c0-812b-a2b4b545931a",
+      "timestamp_seconds": 2991,
+      "timestamp_hms": "00:49:51",
+      "timestamp_iso": "2026-11-05T14:27:51.247Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "I am back"
+        }
+      ]
+    },
+    {
+      "id": "371f8da7-2e84-4cb7-83c4-fa6a8574a018",
+      "timestamp_seconds": 3001,
+      "timestamp_hms": "00:50:01",
+      "timestamp_iso": "2026-11-05T14:28:01.58Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "I am free rn "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_86a389f01e6549f99f1609fec9678fb8",
+          "name": "lachesisCatStare"
+        }
+      ]
+    },
+    {
+      "id": "d6eff47a-bf25-4a2c-8502-c6c42689947a",
+      "timestamp_seconds": 3012,
+      "timestamp_hms": "00:50:12",
+      "timestamp_iso": "2026-11-05T14:28:12.146Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Do you like ASMR"
+        }
+      ]
+    },
+    {
+      "id": "8d448738-97bf-410e-bbf9-e1d61756f05a",
+      "timestamp_seconds": 3019,
+      "timestamp_hms": "00:50:19",
+      "timestamp_iso": "2026-11-05T14:28:19.463Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Also, nice mod in Minecraft"
+        }
+      ]
+    },
+    {
+      "id": "c7412239-f58d-4102-9ae7-258c54f7d81a",
+      "timestamp_seconds": 3077,
+      "timestamp_hms": "00:51:17",
+      "timestamp_iso": "2026-11-05T14:29:16.769Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Is this realms"
+        }
+      ]
+    },
+    {
+      "id": "13696b70-1d03-43f8-a306-8c09a9946b2a",
+      "timestamp_seconds": 3147,
+      "timestamp_hms": "00:52:27",
+      "timestamp_iso": "2026-11-05T14:30:26.845Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Realms are in java "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_86a389f01e6549f99f1609fec9678fb8",
+          "name": "lachesisCatStare"
+        }
+      ]
+    },
+    {
+      "id": "8e794d3e-bed1-41c2-8313-e6af2012da6f",
+      "timestamp_seconds": 3157,
+      "timestamp_hms": "00:52:37",
+      "timestamp_iso": "2026-11-05T14:30:37.471Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "It's a server, I see"
+        }
+      ]
+    },
+    {
+      "id": "866d0790-409f-496e-af07-a14ec73d2dea",
+      "timestamp_seconds": 3192,
+      "timestamp_hms": "00:53:12",
+      "timestamp_iso": "2026-11-05T14:31:12.313Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "What if you kill all your teammates"
+        }
+      ]
+    },
+    {
+      "id": "99e1603d-97e0-46ff-89d3-dcacb2dc402c",
+      "timestamp_seconds": 3201,
+      "timestamp_hms": "00:53:21",
+      "timestamp_iso": "2026-11-05T14:31:21.657Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Also, why am I only hearing breeding"
+        }
+      ]
+    },
+    {
+      "id": "445dc85d-a09e-464d-93e4-bd508beb71e5",
+      "timestamp_seconds": 3221,
+      "timestamp_hms": "00:53:41",
+      "timestamp_iso": "2026-11-05T14:31:40.927Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "From your voice chat"
+        }
+      ]
+    },
+    {
+      "id": "8f9166bc-56c8-4000-a237-0587387f1fe0",
+      "timestamp_seconds": 3238,
+      "timestamp_hms": "00:53:58",
+      "timestamp_iso": "2026-11-05T14:31:58.647Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "She is just saying"
+        }
+      ]
+    },
+    {
+      "id": "13f65187-aab5-458e-8d6d-d495c30d83d3",
+      "timestamp_seconds": 3242,
+      "timestamp_hms": "00:54:02",
+      "timestamp_iso": "2026-11-05T14:32:01.742Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Breed them"
+        }
+      ]
+    },
+    {
+      "id": "355306e5-31f5-4c94-9308-01f64b4e8e1c",
+      "timestamp_seconds": 3267,
+      "timestamp_hms": "00:54:27",
+      "timestamp_iso": "2026-11-05T14:32:27.167Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Almost evertime"
+        }
+      ]
+    },
+    {
+      "id": "a66478fd-8012-486f-a9cc-592876be2766",
+      "timestamp_seconds": 3275,
+      "timestamp_hms": "00:54:35",
+      "timestamp_iso": "2026-11-05T14:32:34.986Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "She is saying to breed them"
+        }
+      ]
+    },
+    {
+      "id": "72f502cf-0f27-4098-ba22-aa27100f22ae",
+      "timestamp_seconds": 3558,
+      "timestamp_hms": "00:59:18",
+      "timestamp_iso": "2026-11-05T14:37:18.681Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "hi"
+        }
+      ]
+    },
+    {
+      "id": "b4cd926c-8a74-4965-bf35-085934d93df2",
+      "timestamp_seconds": 3564,
+      "timestamp_hms": "00:59:24",
+      "timestamp_iso": "2026-11-05T14:37:24.688Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "minecraftttttttttttttttttttttttttttttttttttt"
+        }
+      ]
+    },
+    {
+      "id": "9f9919dd-cd6f-41f9-9677-329d98e309eb",
+      "timestamp_seconds": 3572,
+      "timestamp_hms": "00:59:32",
+      "timestamp_iso": "2026-11-05T14:37:32.071Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "hru"
+        }
+      ]
+    },
+    {
+      "id": "04b76c58-0aef-43a1-9f6f-3b2b1748bc8d",
+      "timestamp_seconds": 3580,
+      "timestamp_hms": "00:59:40",
+      "timestamp_iso": "2026-11-05T14:37:39.779Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "u seem sleeppy and tired"
+        }
+      ]
+    },
+    {
+      "id": "1f1dab51-ac2f-4518-8d2e-3c603ae042a0",
+      "timestamp_seconds": 3655,
+      "timestamp_hms": "01:00:55",
+      "timestamp_iso": "2026-11-05T14:38:54.714Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "r u sick ?"
+        }
+      ]
+    },
+    {
+      "id": "2b0027d2-2fba-43c1-89d8-2b2e0175fdd2",
+      "timestamp_seconds": 3665,
+      "timestamp_hms": "01:01:05",
+      "timestamp_iso": "2026-11-05T14:39:05.441Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "same"
+        }
+      ]
+    },
+    {
+      "id": "4956462d-f2f4-4505-971f-94eca32e5397",
+      "timestamp_seconds": 3669,
+      "timestamp_hms": "01:01:09",
+      "timestamp_iso": "2026-11-05T14:39:09.27Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "lol"
+        }
+      ]
+    },
+    {
+      "id": "aa8fcfd2-0a7c-4f07-8ee7-aaa000e4ac94",
+      "timestamp_seconds": 3686,
+      "timestamp_hms": "01:01:26",
+      "timestamp_iso": "2026-11-05T14:39:26.578Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "flu"
+        }
+      ]
+    },
+    {
+      "id": "b17ffc58-9293-4242-8c0a-8a32b5334d74",
+      "timestamp_seconds": 3690,
+      "timestamp_hms": "01:01:30",
+      "timestamp_iso": "2026-11-05T14:39:30.095Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "or common cold"
+        }
+      ]
+    },
+    {
+      "id": "b3491dc2-5aae-4a9a-b75a-95109c9f32f3",
+      "timestamp_seconds": 3757,
+      "timestamp_hms": "01:02:37",
+      "timestamp_iso": "2026-11-05T14:40:37.463Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "have you watched cells at work anime"
+        }
+      ]
+    },
+    {
+      "id": "29617be8-6943-4e71-a3e4-cfddd472bcf2",
+      "timestamp_seconds": 3772,
+      "timestamp_hms": "01:02:52",
+      "timestamp_iso": "2026-11-05T14:40:52.684Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "yes"
+        }
+      ]
+    },
+    {
+      "id": "961cc146-ebde-481b-a4dd-80184f81f1df",
+      "timestamp_seconds": 3776,
+      "timestamp_hms": "01:02:56",
+      "timestamp_iso": "2026-11-05T14:40:55.751Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "lovely anime"
+        }
+      ]
+    },
+    {
+      "id": "34a9d4d8-1dbe-47bc-84fe-b011e0c7a478",
+      "timestamp_seconds": 3787,
+      "timestamp_hms": "01:03:07",
+      "timestamp_iso": "2026-11-05T14:41:07.391Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "biology as an anime"
+        }
+      ]
+    },
+    {
+      "id": "655fa0bf-a7f4-4940-b666-85df76db721d",
+      "timestamp_seconds": 3793,
+      "timestamp_hms": "01:03:13",
+      "timestamp_iso": "2026-11-05T14:41:13.626Z",
+      "user": {
+        "id": "796077432",
+        "display_name": "alessapuffybutterfly",
+        "login": "alessapuffybutterfly",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/eda3c7cd-37cd-401f-b422-71e075a5bff7-profile_image-70x70.png",
+        "color": null,
+        "badges": [
+          {
+            "_id": "wardog",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "do u like biology"
+        }
+      ]
+    },
+    {
+      "id": "aa8dc108-4068-41cb-a0be-75eb61c9936f",
+      "timestamp_seconds": 4149,
+      "timestamp_hms": "01:09:09",
+      "timestamp_iso": "2026-11-05T14:47:09.311Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "af21e137-a3b9-42b8-8fb9-6f7274bc6d47",
+      "timestamp_seconds": 4216,
+      "timestamp_hms": "01:10:16",
+      "timestamp_iso": "2026-11-05T14:48:16.243Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "6d5b7225-eab0-4faf-9141-1b860a23dfc7",
+      "timestamp_seconds": 4306,
+      "timestamp_hms": "01:11:46",
+      "timestamp_iso": "2026-11-05T14:49:46.256Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "e43a6a20-2c73-4d55-97aa-5c059a0bcb30",
+      "timestamp_seconds": 5949,
+      "timestamp_hms": "01:39:09",
+      "timestamp_iso": "2026-11-05T15:17:09.319Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "3b951862-a265-4603-9a6b-b79f0fedc10a",
+      "timestamp_seconds": 6016,
+      "timestamp_hms": "01:40:16",
+      "timestamp_iso": "2026-11-05T15:18:16.26Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "083b74e1-e759-402e-8913-13732ec52cb6",
+      "timestamp_seconds": 6106,
+      "timestamp_hms": "01:41:46",
+      "timestamp_iso": "2026-11-05T15:19:46.318Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "dbd72318-cb87-4dbe-b6a0-0d4303bb3a85",
+      "timestamp_seconds": 7749,
+      "timestamp_hms": "02:09:09",
+      "timestamp_iso": "2026-11-05T15:47:09.379Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "645e0ca6-7144-4737-9115-60baeb7df476",
+      "timestamp_seconds": 7816,
+      "timestamp_hms": "02:10:16",
+      "timestamp_iso": "2026-11-05T15:48:16.27Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "0ab6bde8-924b-4bf6-b694-4218e5b5d990",
+      "timestamp_seconds": 7906,
+      "timestamp_hms": "02:11:46",
+      "timestamp_iso": "2026-11-05T15:49:46.277Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "6893db4f-016d-43ec-aa33-ced41e8dfdfa",
+      "timestamp_seconds": 7973,
+      "timestamp_hms": "02:12:53",
+      "timestamp_iso": "2026-11-05T15:50:53.581Z",
+      "user": {
+        "id": "143921403",
+        "display_name": "Angrypapapug",
+        "login": "angrypapapug",
+        "avatar_url": "https://static-cdn.jtvnw.net/user-default-pictures-uv/294c98b5-e34d-42cd-a8f0-140b72fba9b0-profile_image-70x70.png",
+        "color": null,
+        "badges": []
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "hows minecraft going??"
+        }
+      ]
+    },
+    {
+      "id": "99915463-893a-4419-9b9a-8d85a82ea417",
+      "timestamp_seconds": 8986,
+      "timestamp_hms": "02:29:46",
+      "timestamp_iso": "2026-11-05T16:07:46.417Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "It's 1 am joq "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_86a389f01e6549f99f1609fec9678fb8",
+          "name": "lachesisCatStare"
+        }
+      ]
+    },
+    {
+      "id": "08237bbe-b69b-432a-bc3f-d84f82e1f570",
+      "timestamp_seconds": 9057,
+      "timestamp_hms": "02:30:57",
+      "timestamp_iso": "2026-11-05T16:08:57.54Z",
+      "user": {
+        "id": "1379371896",
+        "display_name": "konada3431",
+        "login": "konada3431",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/37fe4c0c-ad4d-4d64-924d-f425a4275862-profile_image-70x70.jpeg",
+        "color": "#FF69B4",
+        "badges": [
+          {
+            "_id": "pikachu",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Don't spill the soup on the keyboard "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_86a389f01e6549f99f1609fec9678fb8",
+          "name": "lachesisCatStare"
+        }
+      ]
+    },
+    {
+      "id": "276dad62-edba-41c1-94bd-e6dad926003e",
+      "timestamp_seconds": 9549,
+      "timestamp_hms": "02:39:09",
+      "timestamp_iso": "2026-11-05T16:17:09.471Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "An ad break is starting soon! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        }
+      ]
+    },
+    {
+      "id": "fb3d7f27-b471-4d86-bd34-4be8723b184b",
+      "timestamp_seconds": 9616,
+      "timestamp_hms": "02:40:16",
+      "timestamp_iso": "2026-11-05T16:18:16.309Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "A 90 second ad break is starting! Thank you for sticking with us through this break! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_6b30e6913df444a18638bd61781e7c6f",
+          "name": "seryboDance"
+        },
+        {
+          "type": "text",
+          "text": " Ads help support my content. Consider subscribing to remove ads and support the stream!"
+        }
+      ]
+    },
+    {
+      "id": "6160f97b-a9bb-428d-af0e-87362fc55992",
+      "timestamp_seconds": 9706,
+      "timestamp_hms": "02:41:46",
+      "timestamp_iso": "2026-11-05T16:19:46.175Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "The ad break is finishing now! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_6b30e6913df444a18638bd61781e7c6f",
+          "name": "seryboDance"
+        }
+      ]
+    },
+    {
+      "id": "0c14a50f-7208-4482-a473-d0c1f2175ada",
+      "timestamp_seconds": 9999,
+      "timestamp_hms": "02:46:39",
+      "timestamp_iso": "2026-11-05T16:24:39.027Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Have a great rest of your day! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_35a346bf76aa4fd69b430f97cdadbafc",
+          "name": "seryboLove"
+        },
+        {
+          "type": "text",
+          "text": " Don't forget to stay hydrated and take care of yourself! "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "6be5d8ad-72e6-41fe-bb7e-c5f15a0d94db",
+      "timestamp_seconds": 10033,
+      "timestamp_hms": "02:47:13",
+      "timestamp_iso": "2026-11-05T16:25:12.761Z",
+      "user": {
+        "id": "178918623",
+        "display_name": "JoqniX",
+        "login": "joqnix",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/a01cb33c-24d1-429a-9d9c-9760c3a269b3-profile_image-70x70.png",
+        "color": "#9966CC",
+        "badges": [
+          {
+            "_id": "broadcaster",
+            "version": "1"
+          },
+          {
+            "_id": "share-the-love",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "thank you all for coming by tonight~ otsujoq"
+        }
+      ]
+    }
+  ]
+}
