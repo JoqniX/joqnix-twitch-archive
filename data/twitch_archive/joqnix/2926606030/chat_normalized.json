@@ -1,0 +1,108 @@
+{
+  "vod_id": "2926606030",
+  "streamer": {
+    "name": "JoqniX",
+    "login": "joqnix",
+    "id": 178918623
+  },
+  "video": {
+    "title": "Minecraft #22 \u250a \u2726 Farming for resources for creeper farm! ~ - Day 4  ~  EN/JP | JoqniX",
+    "created_at": "2026-11-12T09:50:25Z",
+    "duration": 337,
+    "game": "Minecraft"
+  },
+  "messages": [
+    {
+      "id": "afa2bf98-7428-4741-9076-025d8d6b4a1d",
+      "timestamp_seconds": 9,
+      "timestamp_hms": "00:00:09",
+      "timestamp_iso": "2026-11-12T09:50:34.068Z",
+      "user": {
+        "id": "237719657",
+        "display_name": "Fossabot",
+        "login": "fossabot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/719a0ffa-6c86-4321-83f1-44990fd644bc-profile_image-70x70.png",
+        "color": "#1976D2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "JoqniX is now live! Streaming Minecraft: Minecraft #22 \u250a \u2726 Farming for resources for creeper farm! ~ - Day 4  ~  EN/JP | JoqniX"
+        }
+      ]
+    },
+    {
+      "id": "4d1a10ce-1e3e-4f46-8a00-cce738d462e5",
+      "timestamp_seconds": 9,
+      "timestamp_hms": "00:00:09",
+      "timestamp_iso": "2026-11-12T09:50:34.296Z",
+      "user": {
+        "id": "402337290",
+        "display_name": "Sery_Bot",
+        "login": "sery_bot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/51f9ca15-6719-41bb-9763-af9da8f6e73e-profile_image-70x70.png",
+        "color": "#8A2BE2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "Sery_Bot is here "
+        },
+        {
+          "type": "emote",
+          "id": "emotesv2_a4648bf8dbbd4b8380c59c8c761427c1",
+          "name": "seryboArrive"
+        }
+      ]
+    },
+    {
+      "id": "b8ccc80c-fb0d-444d-be56-a0f0564dd912",
+      "timestamp_seconds": 19,
+      "timestamp_hms": "00:00:19",
+      "timestamp_iso": "2026-11-12T09:50:43.821Z",
+      "user": {
+        "id": "237719657",
+        "display_name": "Fossabot",
+        "login": "fossabot",
+        "avatar_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/719a0ffa-6c86-4321-83f1-44990fd644bc-profile_image-70x70.png",
+        "color": "#1976D2",
+        "badges": [
+          {
+            "_id": "moderator",
+            "version": "1"
+          },
+          {
+            "_id": "bot-badge",
+            "version": "1"
+          }
+        ]
+      },
+      "message": [
+        {
+          "type": "text",
+          "text": "@joqnix just tweeted: Minecraft #22 \u250a \u2726 Farming for resources for creeper farm! ~ - Day 4 ~ EN/JP | JoqniX https://t.co/QDIojwjibV - https://x.com/joqnix/status/2120816534692020676"
+        }
+      ]
+    }
+  ]
+}
